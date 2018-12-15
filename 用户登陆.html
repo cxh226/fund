@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title>智慧健康社区大数据服务平台</title>
+        <link rel="stylesheet" href="fonts/iconfont.css"/>
+        <link rel="stylesheet" href="css/font.css"/>
+        <link rel="stylesheet" href="css/mui.css"/>
+        <link rel="stylesheet" href="css/weui.min.css"/>
+        <link rel="stylesheet" href="css/jquery-weui.min.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="css/pages/login.css"/>
+        <script>(function (doc, win) {
+          var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);</script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/admin_logo.png">
+
+            <h2>智慧健康社区大数据服务平台</h2>
+        </div>
+        <div class="login-wrap">
+            <div class="login-box">
+                <form>
+                    <div class="input-wrap">
+                        <input type="text" name="username" placeholder="手机号码">
+                    </div>
+                    <div class="input-wrap">
+                        <input type="password" name="passwd" placeholder="密码">
+                    </div>
+                </form>
+            </div>
+            <a href="主页.html" class="weui_btn login-btn weui_btn_primary" style="margin-top:20px;">登录</a>
+                    
+        </div>
+        <div class="footer">
+            版权所有：青海科学信息技术研究所<br>
+            技术支持：青海云起网络科技有限公司
+        </div>
+    </body>
+</html>
